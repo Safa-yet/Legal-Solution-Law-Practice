@@ -1,119 +1,355 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-  <title>Inflencer-Practice</title>
-  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body class="font-poppins selection:bg-green-500 selection:text-black">
-  <header>
-    <nav class="container-full  flex justify-between items-center my-[30px]">
-      <img src="./images/logo.png" alt="">
-      <ul class="list-none flex gap-[30px] text-[#707070]">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Service <i class="fa-solid fa-chevron-right"></i></a></li>
-        <li><a href="#">Cases <i class="fa-solid fa-chevron-right"></i></a></li>
-        <li><a href="#">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
-        <li><a href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
-      </ul>
-      <button class="primary-btn">Free Consultation</button>
-    </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Inflencer-Practice</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="font-poppins selection:bg-green-500 selection:text-black">
+    <header>
+      <nav class="container-full flex justify-between items-center my-[30px]">
+        <img src="./images/logo.png" alt="" />
+        <ul class="list-none flex gap-[30px] text-[#707070]">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#">Service <i class="fa-solid fa-chevron-right"></i></a>
+          </li>
+          <li>
+            <a href="#">Cases <i class="fa-solid fa-chevron-right"></i></a>
+          </li>
+          <li>
+            <a href="#">Blog <i class="fa-solid fa-chevron-right"></i></a>
+          </li>
+          <li>
+            <a href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+          </li>
+        </ul>
+        <button class="primary-btn">Free Consultation</button>
+      </nav>
 
-    <!-- hero-section -->
+      <!-- hero-section -->
 
-    <section class="container-full bg-[url('./images/banner.png')] bg-blend-overlay bg-black/60 bg-cover bg-no-repeat py-26 rounded-lg">
-      <div class="max-w-[614px] mx-auto text-center  text-white">
-        <h1 class="text-7xl font-extrabold capitalize font-EB white leading-20">We provide effective legal solutions</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda molestiae dolor eos fuga consequuntur quos blanditiis vitae iure at sequi!</p>
-        <div class="flex mt-8 px-2 gap-6">
-        <input type="search" name="" id="search" class="p-5 bg-white w-full rounded-lg text-black outline-0">     
-        <button class="px-10 py-4 bg-primary rounded-lg text-lg font-semibold ">Search</button>   
-      </div>
-
-      </div>
-
-    </section>
-  </header>
-
-
-  <main>
-    <section class="sec-container ">
-      <div class="section-header max-w-3xl text-center mx-auto">
-        <h1 class="font-EB text-[40px] font-extrabold">The Legal Practice Area</h1>
-        <p class="text-sec">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-      </div>
-
-      <div class="grid grid-cols-3 gap-2 mt-16">
-        <div class="item bg-[#E7E7E7]  max-w-[401px] px-[40px]  py-[70px] flex flex-col items-center text-center gap-6 outline-1 outline-primary">
-          <img src="./images/business.png" alt="" class="w-fit">
-          <h3 class="font-EB text-3xl font-extrabold text-[#414040]">Business Law</h3>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-          <button class=" w-8 h-8 bg-primary rounded-full text-white"><i class="fa-solid fa-arrow-right"></i></button>
+      <section
+        class="container-full bg-[url('./images/banner.png')] bg-blend-overlay bg-black/60 bg-cover bg-no-repeat py-26 rounded-lg"
+      >
+        <div class="max-w-[614px] mx-auto text-center text-white">
+          <h1
+            class="text-7xl font-extrabold capitalize font-EB white leading-20"
+          >
+            We provide effective legal solutions
+          </h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+            molestiae dolor eos fuga consequuntur quos blanditiis vitae iure at
+            sequi!
+          </p>
+          <div class="flex mt-8 px-2 gap-6">
+            <input
+              type="search"
+              name=""
+              id="search"
+              class="p-5 bg-white w-full rounded-lg text-black outline-0"
+            />
+            <button
+              class="px-10 py-4 bg-primary rounded-lg text-lg font-semibold"
+            >
+              Search
+            </button>
+          </div>
         </div>
-        <div class="item bg-[#E7E7E7]  max-w-[401px] px-[40px]  py-[70px] flex flex-col items-center text-center gap-6 outline-1 outline-primary">
-          <img src="./images/criminal.png" alt="" class="w-fit">
-          <h3 class="font-EB text-3xl font-extrabold text-[#414040]">Criminal Law</h3>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-          <button class=" w-8 h-8 bg-primary rounded-full text-white"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
-        <div class="item bg-[#E7E7E7]  max-w-[401px] px-[40px]  py-[70px] flex flex-col items-center text-center gap-6 outline-1 outline-primary">
-          <img src="./images/child.png" alt="" class="w-fit">
-          <h3 class="font-EB text-3xl font-extrabold text-[#414040]">Child Support</h3>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-          <button class=" w-8 h-8 bg-primary rounded-full text-white"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
-        <div class="item bg-[#E7E7E7]  max-w-[401px] px-[40px]  py-[70px] flex flex-col items-center text-center gap-6 outline-1 outline-primary">
-          <img src="./images/tax.png" alt="" class="w-fit">
-          <h3 class="font-EB text-3xl font-extrabold text-[#414040]">Tax Law</h3>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-          <button class=" w-8 h-8 bg-primary rounded-full text-white"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
-        <div class="item bg-[#E7E7E7]  max-w-[401px] px-[40px]  py-[70px] flex flex-col items-center text-center gap-6 outline-1 outline-primary">
-          <img src="./images/education.png" alt="" class="w-fit">
-          <h3 class="font-EB text-3xl font-extrabold text-[#414040]">Education Law</h3>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-          <button class=" w-8 h-8 bg-primary rounded-full text-white"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
-        <div class="item bg-[#E7E7E7]  max-w-[401px] px-[40px]  py-[70px] flex flex-col items-center text-center gap-6 outline-1 outline-primary">
-          <img src="./images/divorce.png" alt="" class="w-fit">
-          <h3 class="font-EB text-3xl font-extrabold text-[#414040]">Divorce Law</h3>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-          <button class=" w-8 h-8 bg-primary rounded-full text-white"><i class="fa-solid fa-arrow-right"></i></button>
-        </div>
-        
-       
-      </div>
+      </section>
+    </header>
 
-    </section>
-
-    <section class="sec-container">
-       <div class="section-header max-w-3xl text-center mx-auto">
-        <h1 class="font-EB text-[40px] font-extrabold">What Our Client Say</h1>
-        <p class="text-sec">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-      </div>
-
-      <div class="relative text-center py-24 bg-[url('./images/slider-2.jpg')] bg-cover bg-blend-color bg-black/70 text-white bg-no-repeat rounded-lg">
-        <div class="max-w-4xl mx-auto flex flex-col items-center gap-6">
-          <div class="w-16 h-16 overflow-hidden bg-sec rounded-full outline-2 outline-white"><img src="./images/Gemini_Generated_2-removebg-preview.png" alt="" ></div>
-          <div><h3 class="font-EB text-2xl font-extrabold">Safayet Ul islam</h3>
-          <p>Web Developer</p></div>
-          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit perspiciatis alias repellat id omnis suscipit aperiam rerum. Iusto excepturi similique dolore quia temporibus, quibusdam totam pariatur minus odio eos hic voluptate magni placeat illo autem quos. Ducimus error nihil delectus voluptates veritatis magnam asperiores ipsum, sunt, reprehenderit iusto consequuntur! Unde.</p>
-
-          
+    <main>
+      <section class="sec-container">
+        <div class="section-header max-w-3xl text-center mx-auto">
+          <h1 class="font-EB text-[40px] font-extrabold">
+            The Legal Practice Area
+          </h1>
+          <p class="text-sec">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
         </div>
+
+        <div class="grid grid-cols-3 gap-2 mt-16">
+          <div
+            class="item bg-[#E7E7E7] max-w-[401px] p-5 flex flex-col items-center text-center gap-6 outline-1 outline-primary"
+          >
+            <img src="./images/business.png" alt="" class="w-fit" />
+            <h3 class="font-EB text-3xl font-extrabold text-[#414040]">
+              Business Law
+            </h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <button class="w-8 h-8 bg-primary rounded-full text-white">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div
+            class="item bg-[#E7E7E7] max-w-[401px] p-5 flex flex-col items-center text-center gap-6 outline-1 outline-primary"
+          >
+            <img src="./images/criminal.png" alt="" class="w-fit" />
+            <h3 class="font-EB text-3xl font-extrabold text-[#414040]">
+              Criminal Law
+            </h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <button class="w-8 h-8 bg-primary rounded-full text-white">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div
+            class="item bg-[#E7E7E7] max-w-[401px] p-5 flex flex-col items-center text-center gap-6 outline-1 outline-primary"
+          >
+            <img src="./images/child.png" alt="" class="w-fit" />
+            <h3 class="font-EB text-3xl font-extrabold text-[#414040]">
+              Child Support
+            </h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <button class="w-8 h-8 bg-primary rounded-full text-white">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div
+            class="item bg-[#E7E7E7] max-w-[401px] p-5 flex flex-col items-center text-center gap-6 outline-1 outline-primary"
+          >
+            <img src="./images/tax.png" alt="" class="w-fit" />
+            <h3 class="font-EB text-3xl font-extrabold text-[#414040]">
+              Tax Law
+            </h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <button class="w-8 h-8 bg-primary rounded-full text-white">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div
+            class="item bg-[#E7E7E7] max-w-[401px] p-5 flex flex-col items-center text-center gap-6 outline-1 outline-primary"
+          >
+            <img src="./images/education.png" alt="" class="w-fit" />
+            <h3 class="font-EB text-3xl font-extrabold text-[#414040]">
+              Education Law
+            </h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <button class="w-8 h-8 bg-primary rounded-full text-white">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div
+            class="item bg-[#E7E7E7] max-w-[401px] p-5 flex flex-col items-center text-center gap-6 outline-1 outline-primary"
+          >
+            <img src="./images/divorce.png" alt="" class="w-fit" />
+            <h3 class="font-EB text-3xl font-extrabold text-[#414040]">
+              Divorce Law
+            </h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <button class="w-8 h-8 bg-primary rounded-full text-white">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-container">
+        <div class="section-header max-w-3xl text-center mx-auto">
+          <h1 class="font-EB text-[40px] font-extrabold">
+            What Our Client Say
+          </h1>
+          <p class="text-sec">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+
         <div
-        class="absolute flex justify-between w-full p-7 top-[50%]">
-        <i class="fa-solid fa-chevron-left"></i>
-        <i class="fa-solid fa-chevron-right"></i></div>
-      
-      </div>
+          class="relative mt-16 text-center py-24 bg-[url('./images/slider-2.jpg')] bg-cover bg-blend-color bg-black/70 text-white bg-no-repeat rounded-lg"
+        >
+          <div class="max-w-4xl mx-auto flex flex-col items-center gap-6">
+            <div
+              class="w-16 h-16 overflow-hidden bg-sec rounded-full outline-2 outline-white"
+            >
+              <img
+                src="./images/Gemini_Generated_2-removebg-preview.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <h3 class="font-EB text-2xl font-extrabold">Safayet Ul islam</h3>
+              <p>Web Developer</p>
+            </div>
+            <p class="">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit perspiciatis alias repellat id omnis suscipit
+              aperiam rerum. Iusto excepturi similique dolore quia temporibus,
+              quibusdam totam pariatur minus odio eos hic voluptate magni
+              placeat illo autem quos. Ducimus error nihil delectus voluptates
+              veritatis magnam asperiores ipsum, sunt, reprehenderit iusto
+              consequuntur! Unde.
+            </p>
+          </div>
+          <div class="absolute flex justify-between w-full p-7 top-[50%]">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="sec-container">
+        <div class="section-header max-w-3xl text-center mx-auto">
+          <h1 class="font-EB text-[40px] font-extrabold">
+            What Our Client Say
+          </h1>
+          <p class="text-sec">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
 
-    </section>
-  </main>
+        <div class="mt-16 py-24 flex gap-7">
+          <div class="faq-seciton space-y-8">
+            <div class="p-8 bg-sec/10 flex max-w-xl rounded-lg">
+              <div>
+                <h1 class="font-EB font-extrabold text-2xl mb-4">
+                  1.Are application fee waviers available?
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis nemo a nobis in tenetur vitae modi tempora at hic
+                  quia!
+                </p>
+              </div>
+              <i class="fa-solid fa-minus text-2xl"></i>
+            </div>
+            <div class="p-8 bg-sec/10 flex max-w-xl rounded-lg justify-between">
+              <h1 class="font-EB font-extrabold text-2xl">
+                1.Are application fee waviers available?
+              </h1>
 
+              <i class="fa-solid fa-plus text-2xl"></i>
+            </div>
+            <div class="p-8 bg-sec/10 flex max-w-xl rounded-lg justify-between">
+              <h1 class="font-EB font-extrabold text-2xl">
+                1.Are application fee waviers available?
+              </h1>
 
-</body>
+              <i class="fa-solid fa-plus text-2xl"></i>
+            </div>
+            <div class="p-8 bg-sec/10 flex max-w-xl rounded-lg justify-between">
+              <h1 class="font-EB font-extrabold text-2xl">
+                1.Are application fee waviers available?
+              </h1>
+
+              <i class="fa-solid fa-plus text-2xl"></i>
+            </div>
+          </div>
+          <img src="./images/faq.png" alt="" class="w-fit" />
+        </div>
+      </section>
+      <section class="sec-container">
+        <div class="section-header max-w-3xl text-center mx-auto">
+          <h1 class="font-EB text-[40px] font-extrabold">Contact With Us</h1>
+          <p class="text-sec">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+
+        <div class="mt-16 contact-form flex gap-[30px]">
+          <div class="grid grid-cols-2 w-full">
+            <div
+              class="item bg-[#E7E7E7] p-5 flex flex-col items-center justify-center text-center gap-6 outline-1 outline-primary"
+            >
+              <img src="./images/location.png" alt="" class="w-fit" />
+              <h3 class="font-EB text-3xl font-extrabold text-[#414040]">
+               Address
+              </h3>
+              <p>
+               A108 Adam Street,
+New York, NY 535022
+              </p>
+            </div>
+            <div
+              class="item bg-[#E7E7E7] p-5 flex flex-col items-center text-center justify-center  gap-6 outline-1 outline-primary"
+            >
+              <img src="./images/call.png" alt="" class="w-fit" />
+              <h3 class="font-EB text-3xl font-extrabold text-[#414040]">
+                Contact Us
+              </h3>
+              <p>
+               +88 0171234567
+               +88 0171234567
+              </p>
+            </div>
+            <div
+              class="item bg-[#E7E7E7] p-5 flex flex-col items-center text-center justify-center  gap-6 outline-1 outline-primary"
+            >
+              <img src="./images/email.png" alt="" class="" />
+              <h3 class="font-EB text-3xl font-extrabold text-[#414040]">
+                Email Us
+              </h3>
+              <p>
+               info@gmail.com
+               info@gmail.com
+              </p>
+            </div>
+            <div
+              class="item bg-[#E7E7E7] p-5 flex flex-col items-center text-center justify-center  gap-6 outline-1 outline-primary"
+            >
+              <img src="./images/time.png" alt="" class="w-fit" />
+              <h3 class="font-EB text-3xl font-extrabold text-[#414040]">
+                Working Hour
+              </h3>
+              <p>
+               Mon-Fri: 9AM to 5PM
+Sunday: 9AM to 1 PM
+              </p>
+            </div>
+          </div>
+
+          <form action="" class="space-y-7">
+            <input type="text" placeholder="Your Name" class="p-6 outline-0 rounded-lg w-full bg-sec/20">
+            <input type="email" placeholder="Your Email" id="submit" class="p-6 outline-0 rounded-lg w-full bg-sec/20" required>
+            <input type="text" placeholder="Your Subject" class="p-6 outline-0 rounded-lg w-full bg-sec/20">
+            <textarea name="Your Message" id="" rows="5" class="p-6 outline-0 rounded-lg w-full bg-sec/20" placeholder="Text Message"></textarea>
+            <input type="submit" value="Send Message" class="p-6 outline-0 rounded-lg w-full bg-primary font-bold text-xl cursor-pointer">
+
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
